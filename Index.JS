@@ -45,6 +45,9 @@ if (command === "stats") {
   message.channel.send({embed});
   }
 
+   if (message.content.startsWith('<@410859256393367552>')) {
+  message.reply('My Prefix Is `-`')
+}
      
   
   
